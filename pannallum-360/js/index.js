@@ -1,6 +1,6 @@
 pannellum.viewer('panorama', {
     "default": {
-        "firstScene": "2fcenter",
+        "firstScene": "1fcenter",
         "author": "高雄市立圖書館燕巢分館",
         "sceneFadeDuration": 1000
     },
@@ -20,14 +20,14 @@ pannellum.viewer('panorama', {
                     "type": "scene",
                     "text": "上樓",
                     "sceneId": "2fcenter"
-                }, 
+                },
                 {
                     "pitch": -2.1,
                     "yaw": 243,
                     "type": "scene",
                     "text": "前往哺集乳室",
                     "sceneId": "Breastfeeding"
-                }, 
+                },
                 {
                     "pitch": -2.1,
                     "yaw": 260.9,
@@ -120,11 +120,52 @@ pannellum.viewer('panorama', {
             ]
         },
         "2fcenter": {
-            "title": "2F陽光靜讀區",
+            "title": "2F中央",
             "hfov": 310,
             "yaw": -120,
             "type": "equirectangular",
             "panorama": "./../images/2f_center.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 5,
+                    "yaw": 315,
+                    "type": "scene",
+                    "text": "前往陽光靜讀區",
+                    "sceneId": "2fread"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": 185,
+                    "type": "scene",
+                    "text": "前往二樓左側",
+                    "sceneId": "2fleft"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": 10,
+                    "type": "scene",
+                    "text": "前往二樓右側",
+                    "sceneId": "2fright",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                },
+                {
+                    "pitch": 5,
+                    "yaw": 50,
+                    "type": "scene",
+                    "text": "上樓",
+                    "sceneId": "3fcenter",
+                    "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        },
+        "2fread": {
+            "title": "2F陽光靜讀區",
+            "hfov": 310,
+            "yaw": -120,
+            "type": "equirectangular",
+            "panorama": "./../images/2f_read.jpg",
             "hotSpots": [
                 {
                     "pitch": 5,
@@ -134,39 +175,64 @@ pannellum.viewer('panorama', {
                     "URL": "https://artbma.org/"
                 },
                 {
-                    "pitch": -0.6,
-                    "yaw": 240,
-                    "type": "scene",
-                    "text": "Mason Circle",
-                    "sceneId": "circle",
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                },
-                {
-                    "pitch": -0.6,
-                    "yaw": 150,
-                    "type": "scene",
-                    "text": "Mason Circle",
-                    "sceneId": "circle",
-                    "targetYaw": -23,
-                    "targetPitch": 2
-                },
-                {
                     "pitch": 20,
                     "yaw": 190,
                     "type": "scene",
-                    "text": "上樓",
-                    "sceneId": "circle",
-                    "targetYaw": -23,
+                    "text": "返回",
+                    "sceneId": "2fcenter",
+                    "targetYaw": 0,
                     "targetPitch": 2
+                }
+            ]
+        },
+        "2fleft": {
+            "title": "二樓左側",
+            "hfov": 310,
+            "pitch": 10,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "./../images/2f_left.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 10,
+                    "yaw": 1.5,
+                    "type": "info",
+                    "text": "本館一般圖書大多置於本區，依中國圖書編目法逐次放置總類、哲學、宗教、自然科學、應用科學、社會科學及史地、語文、藝術類書藉。此外，另設有介紹台灣人文地理的台灣資料專區、各鄉鎮市志的地方文獻專區及參考書區。閱覽區整體空間設計寬敞明亮、視野通透並配置有造型桌椅供讀者閱覽。t",
+                    "URL": "https://artbma.org/"
                 },
                 {
-                    "pitch": -30,
-                    "yaw": 190,
+                    "pitch": 5,
+                    "yaw": 185,
                     "type": "scene",
-                    "text": "下樓",
-                    "sceneId": "circle",
+                    "text": "返回",
+                    "sceneId": "2fcenter",
                     "targetYaw": -23,
+                    "targetPitch": 2
+                }
+            ]
+        }, 
+        "2fright": {
+            "title": "二樓左側",
+            "hfov": 310,
+            "pitch": 10,
+            "yaw": 5,
+            "type": "equirectangular",
+            "panorama": "./../images/2f_right.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 10,
+                    "yaw": 1.5,
+                    "type": "info",
+                    "text": "本館一般圖書大多置於本區，依中國圖書編目法逐次放置總類、哲學、宗教、自然科學、應用科學、社會科學及史地、語文、藝術類書藉。此外，另設有介紹台灣人文地理的台灣資料專區、各鄉鎮市志的地方文獻專區及參考書區。閱覽區整體空間設計寬敞明亮、視野通透並配置有造型桌椅供讀者閱覽。t",
+                    "URL": "https://artbma.org/"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": 185,
+                    "type": "scene",
+                    "text": "返回",
+                    "sceneId": "2fcenter",
+                    "targetYaw": 80,
                     "targetPitch": 2
                 }
             ]
