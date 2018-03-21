@@ -11,7 +11,7 @@ pannellum.viewer('panorama', {
             "hfov": 180,
             "yaw": -70,
             "type": "equirectangular",
-            "panorama": "/images/1f_center.jpg",
+            "panorama": "https://andy6804tw.github.io/yenchao-library-web-2018/pannallum-360/images/1f_center.jpg",
             "autoLoad": true,
             "hotSpots": [
                 {
