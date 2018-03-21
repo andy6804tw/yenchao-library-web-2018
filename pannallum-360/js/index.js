@@ -8,10 +8,10 @@ pannellum.viewer('panorama', {
     "scenes": {
         "1fcenter": {
             "title": "1F中央大廳",
-            "hfov": 110,
+            "hfov": 180,
             "yaw": -70,
             "type": "equirectangular",
-            "panorama": "./../images/1f_center.jpg",
+            "panorama": "/images/1f_center.jpg",
             "autoLoad": true,
             "hotSpots": [
                 {
@@ -71,7 +71,7 @@ pannellum.viewer('panorama', {
         },
         "read": {
             "title": "1F兒童閱讀區",
-            "hfov": 110,
+            "hfov": 180,
             "yaw": 35,
             "type": "equirectangular",
             "panorama": "./../images/1f_child.jpg",
@@ -122,7 +122,7 @@ pannellum.viewer('panorama', {
         "2fcenter": {
             "title": "2F中央",
             "hfov": 310,
-            "yaw": -120,
+            "yaw": 0,
             "type": "equirectangular",
             "panorama": "./../images/2f_center.jpg",
             "hotSpots": [
@@ -137,26 +137,31 @@ pannellum.viewer('panorama', {
                     "pitch": 5,
                     "yaw": 185,
                     "type": "scene",
-                    "text": "前往二樓左側",
+                    "text": "前往開架閱覽區",
                     "sceneId": "2fleft"
                 },
                 {
                     "pitch": 5,
                     "yaw": 10,
                     "type": "scene",
-                    "text": "前往二樓右側",
-                    "sceneId": "2fright",
+                    "text": "前往開架閱覽區",
+                    "sceneId": "2fright"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 50,
+                    "type": "scene",
+                    "text": "下樓",
+                    "sceneId": "1fcenter",
                     "targetYaw": -23,
                     "targetPitch": 2
                 },
                 {
-                    "pitch": 5,
+                    "pitch": 15,
                     "yaw": 50,
                     "type": "scene",
                     "text": "上樓",
-                    "sceneId": "3fcenter",
-                    "targetYaw": -23,
-                    "targetPitch": 2
+                    "sceneId": "3fleft",
                 }
             ]
         },
@@ -234,6 +239,123 @@ pannellum.viewer('panorama', {
                     "sceneId": "2fcenter",
                     "targetYaw": 80,
                     "targetPitch": 2
+                }
+            ]
+        },
+        "3fleft": {
+            "title": "三樓視聽欣賞區",
+            "hfov": 110,
+            "yaw": 210,
+            "type": "equirectangular",
+            "panorama": "./../images/3f_left.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 0,
+                    "yaw": 170,
+                    "type": "info",
+                    "text": "視聽欣賞區設置有12組視聽專屬設備，沙發座椅寬敞舒適，可供單人或多人一起欣賞。讀者於三樓視聽資料專區選取欲觀賞之影片空盒後，攜至一樓櫃台憑借書證或身分證換取影片光碟後自行操作欣賞，視聽資料區內公用電腦使用時間為一次2小時，看完將光碟及空盒交給服務人員並取回您的證件即可。視聽資料區內之影片分為公播版及家用版，公播版影片限館內欣賞，家用版則可憑借閱證外借回家欣賞，借期14日。",
+                    "URL": "https://artbma.org/"
+                },
+                {
+                    "yaw": -17,
+                    "type": "scene",
+                    "text": "前往多功能教室",
+                    "sceneId": "3froom",
+                },
+                {
+                    "yaw": 180,
+                    "type": "scene",
+                    "text": "前往外文書區",
+                    "sceneId": "3fright"
+                },
+                {
+                    "yaw": 220,
+                    "type": "scene",
+                    "text": "下樓",
+                    "sceneId": "2fcenter",
+                    "targetYaw": 0
+                }
+            ]
+        },
+        "3froom": {
+            "title": "三樓多功能教室",
+            "hfov": 180,
+            "yaw": -35,
+            "type": "equirectangular",
+            "panorama": "./../images/3f_room.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 5,
+                    "yaw": -5,
+                    "type": "info",
+                    "text": "多功能教室為外圓內方之教室，內部設備除課桌椅外並配有投影機、投影幕及數位化多功能講桌。每年均舉辦許多課程活動，舉凡閱讀推廣、藝文研習、多元文化課程、志工增能、親子共讀、社區社團共創合作、在地人文史地教學、劇團互動表演等均屬之。",
+                    "URL": "https://artbma.org/"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": -85,
+                    "type": "scene",
+                    "text": "返回視聽欣賞區",
+                    "sceneId": "3fleft"
+                }
+            ]
+        }, "3fright": {
+            "title": "三樓外文書區",
+            "hfov": 180,
+            "yaw": -35,
+            "type": "equirectangular",
+            "panorama": "./../images/3f_right.jpg",
+            "hotSpots": [
+                {
+                    "pitch": 5,
+                    "yaw": -85,
+                    "type": "info",
+                    "text": "本區設有外文書約1千餘冊，包含適合教導兒童讀看之人文科普、童話故事、歷史地理相關西文書，及適合成人閱讀之各類經典文學西文書。",
+                    "URL": "https://artbma.org/"
+                },
+                {
+                    "pitch": 0,
+                    "yaw": 5,
+                    "type": "scene",
+                    "text": "前往視聽欣賞區",
+                    "sceneId": "3fleft"
+                },
+                {
+                    "yaw": -45,
+                    "type": "scene",
+                    "text": "下樓",
+                    "sceneId": "2fcenter",
+                    "targetYaw": 0
+                },
+                {
+                    "yaw": -125,
+                    "type": "scene",
+                    "text": "前往數位機會中心電",
+                    "sceneId": "3fcomputer"
+                }
+            ]
+        }, 
+        "3fcomputer": {
+            "title": "三樓數位機會中心",
+            "hfov": 180,
+            "yaw": -55,
+            "pitch": 5,
+            "type": "equirectangular",
+            "panorama": "./../images/3f_computer.jpg",
+            "hotSpots": [
+                {
+                    "pitch": -5,
+                    "yaw": -5,
+                    "type": "info",
+                    "text": "本館位處偏鄉，是以教育部為平衡城鄉間數位資訊取得之落差，於本館設置數位機會中心。中心內建置有電腦教室，每年開辦多樣的免費電腦及平板手機等資訊課程、各類電腦軟體應用實作課程及認證課程；並在產業經濟、社會關懷、文化典藏方面關懷在地。此外，數位機會中心數位學伴計畫亦透過遠距線上教學，輔導陪伴偏鄉學童課後學習及心靈陪伴。",
+                    "URL": "https://artbma.org/"
+                },
+                {
+                    "pitch": 5,
+                    "yaw": -155,
+                    "type": "scene",
+                    "text": "返回外文書區",
+                    "sceneId": "3fright"
                 }
             ]
         },
