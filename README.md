@@ -4,6 +4,8 @@
 ## 圖書館AR互動
 擴增實境（Augmented Reality，簡稱AR) 接近現實的虛擬環境。裝置利用電腦技術模擬出一個立體、高擬真的 3D 空間，讓使用者身歷其境，產生如同在現實中一般的體驗，因此我們與燕巢圖書館合作製作一套 AR 圖書館導覽遊戲，讓來圖書館的民眾可以利用手機或平板在館內體驗與吉祥物(小芭)驚奇的互動！
 
+- [Android下載](https://drive.google.com/file/d/1gATdTxrZP6P_J5bAQ2uBejY25vL0qdcW/view)
+
 製作方式：
 
 - 3DS MAX
@@ -27,7 +29,6 @@
 <img src="/Screenshot/img01.png" width="650">
 <img src="/Screenshot/img02.png" width="650">
 
-- [Android下載](https://drive.google.com/file/d/1gATdTxrZP6P_J5bAQ2uBejY25vL0qdcW/view)
 
 ## 圖書館 360° 導覽
 館內一到三樓 360° 度全景導覽無死角，在家就能夠一覽燕巢圖書館的館內設施。我們使用全景攝影機拍攝圖書館館內這個區域目的讓來使用的民眾能夠快速的一覽館內的所有設施。
