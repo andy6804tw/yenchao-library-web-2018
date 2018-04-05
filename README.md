@@ -1,6 +1,8 @@
+[![license][license-image]][license-url]
+
 # 106學年度教育部資訊志工(跨媒體整合)
 ## 圖書館AR互動
-擴增實境（Augmented Reality，簡稱AR) 接近現實的虛擬環境。裝置利用電腦技術模擬出一個立體、高擬真的 3D 空間，讓使用者身歷其境，產生如同在現實中一般的體驗，因此我們與燕巢圖書館合作製作一套 AR 圖書館導覽遊戲，讓來圖書館的民眾可以利用手機或平板在館內體驗與吉祥物(小芭)驚奇的互動！
+擴增實境（Augmented Reality，簡稱AR) 接近現實的虛擬環境。裝置利用電腦技術模擬出一個立體、高擬真的 3D 空間，讓使用者身歷其境，產生如同在現實中一般的體驗，因此我們與燕巢圖書館合作製作一套 AR 圖書館導覽遊戲，讓來圖書館的民眾可以利用手機或平板在館內體驗與吉祥物(小芭)驚奇的互動！
 
 製作方式：
 
@@ -22,8 +24,8 @@
 2. 吃掉蘋果會進入語音導覽
 3. 吃掉草莓進入Q&A問答
 
-<img src="/Screenshot/img01.png">
-<img src="/Screenshot/img02.png">
+<img src="/Screenshot/img01.png" width="650">
+<img src="/Screenshot/img02.png" width="650">
 
 - [Android下載](https://drive.google.com/file/d/1gATdTxrZP6P_J5bAQ2uBejY25vL0qdcW/view)
 
@@ -73,3 +75,21 @@
 
 ### 數位機會中心電腦教室
 本館位處偏鄉，是以教育部為平衡城鄉間數位資訊取得之落差，於本館設置數位機會中心。中心內建置有電腦教室，每年開辦多樣的免費電腦及平板手機等資訊課程、各類電腦軟體應用實作課程及認證課程；並在產業經濟、社會關懷、文化典藏方面關懷在地。此外，數位機會中心數位學伴計畫亦透過遠距線上教學，輔導陪伴偏鄉學童課後學習及心靈陪伴。
+
+
+## Information
+- Developer: 蔡易霖 (Tsai,Yi-Lin )
+- Email: andy6804tw@yahoo.com.tw
+
+## Thanks
+- [高雄市立圖書館燕巢分館暨燕巢數位機會中心](https://itaiwan.moe.gov.tw/doc/index.php?doc=68)
+- [教育部資訊志工團隊計畫](https://ecare.moe.gov.tw/ecare/)
+- [台南市長榮大學](http://www.cjcu.edu.tw/)
+- [長榮牧羊人資訊志工團隊](https://andy6804tw.github.io/yenchao-library-web-2018/website/index.html)
+
+## LICENSE
+MIT
+
+
+[license-image]: https://img.shields.io/badge/license-MIT-blue.svg
+[license-url]: https://github.com/andy6804tw/yenchao-library-web-2018/blob/master/LICENSE
