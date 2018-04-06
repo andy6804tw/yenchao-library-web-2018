@@ -2,6 +2,11 @@
      margin: 0;
      font-family: Arial;
 }
+h1{
+  font-size: 35px;
+  font-weight: 500;
+  color: #5B0600;
+}
 /* 導航列 */
  nav {
      padding: 20px;
@@ -172,6 +177,55 @@
   text-align: center;
 }
 
+/** 
+ * Block 1 (AR互動)
+ */
+.block-1{
+  height: 480px;
+  width: 100%;
+  background-image: url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block01.png);
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.block-1 .left{
+  float:left;
+  width: 25%;
+  margin-bottom: 10px;
+  margin: 6% 4% 5% 16%;
+}
+.left p{
+  margin-top: 35px;
+  font-size: 15px;
+  color: #47454a;
+}
+.block-1 .button{
+  text-align: center;
+}
+.block-1 a {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.block-1 .right{
+  float:left;
+  width: 40%;
+  margin-bottom: 10px;
+  margin: 3% 15% 5% 0%;
+}
+.block-1 img{
+  width: 100%;
+  height: auto;
+}
 
 /* section */
  #screen2 {
