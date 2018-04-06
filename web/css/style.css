@@ -347,23 +347,19 @@ h1{
   float:left;
   width: 34%;
   margin: 2% 1% 2% 15%;
-  background-color: #ccc;
 }
 .feature-right{
   float:left;
   width: 34%;
   margin: 2% 15% 2% 1%;
-  background-color: #ccc;
 }
 .item-icon{
   float:left;
-  width: 30%;
-  background-color: #ccc;
+  width: 20%;
 }
 .item-text{
   float:left;
-  width: 70%;
-  background-color: #ccc;
+  width: 80%;
 }
 .text-right{
   text-align: right;
