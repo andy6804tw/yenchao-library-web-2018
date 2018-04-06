@@ -18,6 +18,7 @@
  nav button {
      display: none;
 }
+/* 文字連結 */
 .navbar-bottom{
   text-align: center;
 }
@@ -34,6 +35,7 @@
      text-decoration:none;
      color: #47454a 
 }
+/* 導航列RWD */
  @media (max-width: 1000px) {
      nav{
          min-height: 100px;
@@ -86,6 +88,91 @@
          padding-bottom: 0;
     }
 }
+ 
+/**
+ * Slideshow / Carousel
+ */
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  line-height: 0;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 10px 2px;
+  border:1px solid white;
+  border-radius: 50%;
+  display: inline-block;
+  transition: white 0.6s ease;
+}
+
+.dot-active, .dot:hover {
+  background-color: white;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+.dot-block{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+
 /* section */
  #screen2 {
      height: 470px;
@@ -95,4 +182,3 @@
      height: 470px;
      background: #e1793d;
 }
- 
