@@ -333,14 +333,41 @@ h1{
  * Block 4 (館內設施)
  */
 .block-4 {
-  clear: both;
-  height: 490px;
+  height: 700px;
   width: 100%;
   background-image: url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block04.png);
   -moz-background-size: cover;
   background-size: cover;
 }
-
+.block-4 .title{
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+.feature-left{
+  float:left;
+  width: 34%;
+  margin: 2% 1% 2% 15%;
+  background-color: #ccc;
+}
+.feature-right{
+  float:left;
+  width: 34%;
+  margin: 2% 15% 2% 1%;
+  background-color: #ccc;
+}
+.item-icon{
+  float:left;
+  width: 30%;
+  background-color: #ccc;
+}
+.item-text{
+  float:left;
+  width: 70%;
+  background-color: #ccc;
+}
+.text-right{
+  text-align: right;
+}
 /* section */
  #screen2 {
      height: 470px;
