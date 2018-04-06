@@ -335,9 +335,7 @@ h1{
 .block-4 {
   height: 700px;
   width: 100%;
-  background-image: url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block04.png);
-  -moz-background-size: cover;
-  background-size: cover;
+  background-color: #F7F3EA;
 }
 .block-4 h1{
   text-align: center;
@@ -371,6 +369,44 @@ h1{
 .text-right{
   text-align: right;
 }
+
+/** 
+ * Block 5 (地圖)
+ */
+.block-5 .open{
+  height: 270px;
+  text-align: center;
+  background-color: #F7F3EA;
+}
+
+/** 
+ * Block 6 (logo)
+ */
+ .block-6{
+   height: 200px;
+ }
+ .block-6 .container{
+  width: 1000px;
+  margin:0 auto;
+  padding-top: 60px;
+}
+.sponsor{
+  float:left;
+  width: 20%;
+  margin: 0 2.5% 0 2.5%;
+}
+.sponsor img{
+  width: 100%;
+}
+
+/** 
+ * Block 7 (fb)
+ */
+ .block-7{
+   height: 100px;
+   text-align: center;
+ }
+
 /* section */
  #screen2 {
      height: 470px;
