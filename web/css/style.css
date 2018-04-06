@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  font-family: Arial;
+}
+
+/* 主菜單 */
+nav {
+  padding: 20px;
+  min-height: 150px;
+  background:#fff url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block.png) no-repeat;
+  -moz-background-size: cover;
+    background-size: cover;
+}
+  /*  title logo置中  */
+  .navbar-header{
+    text-align: center;
+  }
+  .navbar-bottom{
+    text-align: center;
+  }
+nav button {
+    display: none;
+  }
+  nav ul{
+    text-align: center;
+    list-style-type:none;
+    display: inline-block;
+    margin-top: 15px;
+  }
+  nav ul li{
+    display:inline;
+    padding: 25px 30px 25px 30px;
+  }
+nav a{
+    text-decoration:none;
+  color: #47454a
+}
+
+@media (max-width: 1000px) {
+  nav{
+    min-height: 50px;
+    padding: 5px;
+  }
+  nav img{
+    max-width: 60px;
+    max-height: 40px;
+  }
+  nav button {
+    display: block;
+  }
+    nav div a {
+    text-decoration: none;
+    color: #fff;
+  }
+  nav button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    color: #404040;
+  }
+  nav button:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 0;
+    display: none;
+  }
+
+  nav ul.active {
+    display: block;
+    padding-top: 20px;
+  }
+
+  nav ul li {
+    display: block;
+    border-top: 1px solid black;
+  }
+
+  nav ul li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+  }
+
+  nav ul li:last-child a {
+    padding-bottom: 0;
+  }
+}
+
+
+/* section */
+#screen2 {
+  height: 470px;
+	background: #efc94d;
+}
+
+#screen3 {
+  height: 470px;
+	background: #e1793d;
+}
