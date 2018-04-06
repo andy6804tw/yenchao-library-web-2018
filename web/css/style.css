@@ -227,6 +227,56 @@ h1{
   height: auto;
 }
 
+/** 
+ * Block 2 (360導覽)
+ */
+.block-2{
+  height: 480px;
+  width: 100%;
+  background-image: url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block02.png);
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.block-2 .right{
+  float:left;
+  width: 30%;
+  margin-bottom: 10px;
+  margin: 3% 16% 5% 4%;
+}
+.right p{
+  margin-top: 35px;
+  font-size: 15px;
+  color: #47454a;
+}
+.block-2 .button{
+  text-align: center;
+}
+.block-2 a {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 5px;
+    width: 80px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.block-2 .left{
+  float:left;
+  width: 35%;
+  margin-bottom: 10px;
+  margin: 20px 0% 5% 15%;
+}
+.block-2 img{
+  width: 95%;
+  height: auto;
+}
+
 /* section */
  #screen2 {
      height: 470px;
