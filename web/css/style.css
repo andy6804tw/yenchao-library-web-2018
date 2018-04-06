@@ -329,6 +329,18 @@ h1{
   height: auto;
 }
 
+/** 
+ * Block 4 (館內設施)
+ */
+.block-4 {
+  clear: both;
+  height: 490px;
+  width: 100%;
+  background-image: url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block04.png);
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
 /* section */
  #screen2 {
      height: 470px;
