@@ -339,27 +339,34 @@ h1{
   -moz-background-size: cover;
   background-size: cover;
 }
-.block-4 .title{
+.block-4 h1{
   text-align: center;
-  margin: 0 0 25px 0;
+  padding: 40px 0 20px 0;
 }
 .feature-left{
   float:left;
   width: 34%;
+  height: 90px;
   margin: 2% 1% 2% 15%;
 }
 .feature-right{
   float:left;
   width: 34%;
+  height: 90px;
   margin: 2% 15% 2% 1%;
 }
 .item-icon{
   float:left;
   width: 20%;
+  margin: 0 2.5% 0 2.5%;
+}
+.item-icon img{
+  width: 100%;
+  height: auto;
 }
 .item-text{
   float:left;
-  width: 80%;
+  width: 75%;
 }
 .text-right{
   text-align: right;
