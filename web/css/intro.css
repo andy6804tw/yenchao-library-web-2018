@@ -8,7 +8,7 @@ body {
  nav {
      padding: 20px;
      min-height: 150px;
-     background:#fff url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block.png) no-repeat;
+     background:#fff url(./../images/home/home-block.png) no-repeat;
      -moz-background-size: cover;
      background-size: cover;
 }
