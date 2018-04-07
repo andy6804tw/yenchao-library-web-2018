@@ -11,7 +11,7 @@ h1{
  nav {
      padding: 20px;
      min-height: 150px;
-     background:#fff url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block.png) no-repeat;
+     background:#fff url(./../images/home/home-block.png) no-repeat;
      -moz-background-size: cover;
      background-size: cover;
 }
@@ -183,7 +183,7 @@ h1{
 .block-1{
   height: 480px;
   width: 100%;
-  background-image: url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block01.png);
+  background-image: url(./../images/home/home-block01.png);
   -moz-background-size: cover;
   background-size: cover;
 }
@@ -233,7 +233,7 @@ h1{
 .block-2{
   height: 480px;
   width: 100%;
-  background-image: url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block02.png);
+  background-image: url(./../images/home/home-block02.png);
   -moz-background-size: cover;
   background-size: cover;
 }
@@ -284,7 +284,7 @@ h1{
 .block-3{
   height: 490px;
   width: 100%;
-  background-image: url(https://andy6804tw.github.io/yenchao-library-web-2018/material/Images/home/home-block03.png);
+  background-image: url(./../images/home/home-block03.png);
   -moz-background-size: cover;
   background-size: cover;
 }
@@ -406,13 +406,3 @@ h1{
    height: 200px;
    text-align: center;
  }
-
-/* section */
- #screen2 {
-     height: 470px;
-     background: #efc94d;
-}
- #screen3 {
-     height: 470px;
-     background: #e1793d;
-}
