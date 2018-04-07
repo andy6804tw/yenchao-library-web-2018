@@ -1,7 +1,6 @@
 @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
 * {
      margin: 0;
-     font-family: Arial;
 }
 body, html {
   font-family: 'Noto Sans TC', sans-serif;
@@ -199,7 +198,7 @@ h1{
   margin-bottom: 10px;
   margin: 6% 4% 5% 16%;
 }
-.left p{
+.block-1 p{
   margin-top: 35px;
   font-size: 15px;
   color: #47454a;
@@ -249,7 +248,7 @@ h1{
   margin-bottom: 10px;
   margin: 3% 16% 5% 4%;
 }
-.right p{
+.block-2 p{
   margin-top: 35px;
   font-size: 15px;
   color: #47454a;
@@ -301,8 +300,8 @@ h1{
   margin-bottom: 10px;
   margin: 0% 4% 5% 16%;
 }
-.left p{
-  margin-top: 35px;
+.block-3 p{
+  margin-top: 25px;
   font-size: 15px;
   color: #47454a;
 }
@@ -338,7 +337,7 @@ h1{
  * Block 4 (館內設施)
  */
 .block-4 {
-  height: 650px;
+  height: 670px;
   width: 100%;
   background-color: #f7f1e6;
 }
@@ -349,13 +348,13 @@ h1{
 .feature-left{
   float:left;
   width: 34%;
-  height: 90px;
+  height: 100px;
   margin: 2% 1% 2% 15%;
 }
 .feature-right{
   float:left;
   width: 34%;
-  height: 90px;
+  height: 100px;
   margin: 2% 15% 2% 1%;
 }
 .item-icon{
