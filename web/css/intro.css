@@ -166,7 +166,7 @@ h2{
   height: 1080px;
 }
 .block-1 .img1{
-  background-image: url('/web/images/intro/intro-img01.jpg');
+  background-image: url(./../images/intro/intro-img01.jpg);
 }
 
 /* block 02 */
