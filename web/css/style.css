@@ -333,9 +333,9 @@ h1{
  * Block 4 (館內設施)
  */
 .block-4 {
-  height: 700px;
+  height: 650px;
   width: 100%;
-  background-color: #F7F3EA;
+  background-color: #f7f1e6;
 }
 .block-4 h1{
   text-align: center;
@@ -376,7 +376,7 @@ h1{
 .block-5 .open{
   height: 270px;
   text-align: center;
-  background-color: #F7F3EA;
+  background-color: #f7f1e6;
 }
 
 /** 
@@ -403,7 +403,7 @@ h1{
  * Block 7 (fb)
  */
  .block-7{
-   height: 100px;
+   height: 200px;
    text-align: center;
  }
 
