@@ -7,14 +7,13 @@ var pump = require('pump')
 var dir = './dist'
 
 gulp.task('images', function () {
-  // 1. 找到图片
-  gulp.src('./web/**/*.*')
-    // 2. 压缩图片
-    .pipe(imagemin({
+  pump([
+    gulp.src('./web/**/*.*'),
+    imagemin({
       progressive: true
-    }))
-    // 3. 另存图片
-    .pipe(gulp.dest(dir))
+    }),
+    gulp.dest(dir)
+  ])
 });
 gulp.task('minify-html', function (cb) {
   var opts = {
@@ -46,4 +45,4 @@ gulp.task('minify-js', function (cb) {
     gulp.dest(dir)
   ], cb)
 })
-gulp.task('default', ['images', 'minify-css', 'minify-js', 'minify-html'])
+gulp.task('default', ['minify-css', 'minify-js', 'minify-html', 'images'])
