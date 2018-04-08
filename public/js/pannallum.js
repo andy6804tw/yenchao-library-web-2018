@@ -12,7 +12,7 @@ pannellum.viewer('panorama', {
             "hfov": 180,
             "yaw": -70,
             "type": "equirectangular",
-            "panorama": "images/1f_center.jpg",
+            "panorama": "./../images/pannallum/1f_center.jpg",
             "autoLoad": true,
             "hotSpots": [
                 {
@@ -50,7 +50,7 @@ pannellum.viewer('panorama', {
             "hfov": 110,
             "yaw": 5,
             "type": "equirectangular",
-            "panorama": "images/1f_Breastfeeding.jpg",
+            "panorama": "./../images/pannallum/1f_Breastfeeding.jpg",
             "hotSpots": [
                 {
                     "pitch": 14.1,

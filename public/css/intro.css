@@ -150,7 +150,7 @@ h1 {
   align-items:center;
   justify-content:center;
   width:70%;
-  height:400px;
+  height:500px;
   margin: 0 auto;
 }
 p {
@@ -160,89 +160,68 @@ p {
 h2{
   font-size: 28px;
 }
+.block{
+  height: 1180px;
+}
 
 /* block 01 */
-.block-1{
-  height: 1080px;
-}
-.block-1 .img1{
+.block .img1{
   background-image: url(./../images/intro/intro-img01.jpg);
 }
 
 /* block 02 */
-.block-2{
-  height: 1080px;
-}
-.block-2 .img2{
+.block .img2{
   background-image: url(./../images/intro/intro-img02.jpg);
 }
 
 /* block 03 */
-.block-3{
-  height: 1080px;
-}
-.block-3 .img3{
+.block .img3{
   background-image: url(./../images/intro/intro-img03.jpg);
 }
 
 /* block 04 */
-.block-4{
-  height: 1080px;
-}
-.block-4 .img4{
+.block .img4{
   background-image: url(./../images/intro/intro-img04.jpg);
 }
 
 /* block 05 */
-.block-5{
-  height: 1080px;
-}
-.block-5 .img5{
+.block .img5{
   background-image: url(./../images/intro/intro-img05.jpg);
 }
 
 /* block 06 */
-.block-6{
-  height: 1080px;
-}
-.block-6 .img6{
+.block .img6{
   background-image: url(./../images/intro/intro-img06.jpg);
 }
 
 /* block 07 */
-.block-7{
-  height: 1080px;
-}
-.block-7 .img7{
+.block .img7{
   background-image: url(./../images/intro/intro-img07.jpg);
 }
 
 /* block 08 */
-.block-8{
-  height: 1080px;
-}
-.block-8 .img8{
+.block .img8{
   background-image: url(./../images/intro/intro-img08.jpg);
 }
 
 /* block 09 */
-.block-9{
-  height: 1080px;
-}
-.block-9 .img9{
+.block .img9{
   background-image: url(./../images/intro/intro-img09.jpg);
 }
 
 /* block 10 */
-.block-10{
-  height: 1080px;
-}
-.block-10 .img10{
+.block .img10{
   background-image: url(./../images/intro/intro-img10.jpg);
 }
 
  @media (max-width: 1000px) {
-   .block-1 .img1{
+   .block{
+    height: 1380px;
+  }
+  .desc{
+    height: 700px;
+  }
+   .block .img1{
     background-image: url(./../images/intro/intro-mobile-img01.jpg);
   }
   .desc{
