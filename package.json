@@ -1,0 +1,27 @@
+{
+  "name": "yenchao-library-web-2018",
+  "version": "1.0.0",
+  "description": "106學年度教育部資訊志工燕巢圖書館VR/AR成果網站",
+  "main": "index.html",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andy6804tw/yenchao-library-web-2018.git"
+  },
+  "author": "Tsai,Yi-Lin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andy6804tw/yenchao-library-web-2018/issues"
+  },
+  "homepage": "https://github.com/andy6804tw/yenchao-library-web-2018#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-uglify": "^3.0.0",
+    "pump": "^3.0.0"
+  }
+}
