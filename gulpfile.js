@@ -8,11 +8,11 @@ var dir = './dist'
 
 gulp.task('images', function () {
   pump([
-    gulp.src('./web/**/*.*'),
+    gulp.src('./web/images/**/*.*'),
     imagemin({
       progressive: true
     }),
-    gulp.dest(dir)
+    gulp.dest('./dist/images')
   ])
 });
 gulp.task('minify-html', function (cb) {
