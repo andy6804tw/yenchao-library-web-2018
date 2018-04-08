@@ -1,9 +1,21 @@
 var gulp = require('gulp')
+var imagemin = require('gulp-imagemin')
 var htmlmin = require("gulp-htmlmin")
 var cleancss = require('gulp-clean-css')
 var uglify = require('gulp-uglify')
 var pump = require('pump')
 var dir = './dist'
+
+gulp.task('images', function () {
+  // 1. 找到图片
+  gulp.src('./web/**/*.*')
+    // 2. 压缩图片
+    .pipe(imagemin({
+      progressive: true
+    }))
+    // 3. 另存图片
+    .pipe(gulp.dest(dir))
+});
 gulp.task('minify-html', function (cb) {
   var opts = {
     collapseWhitespace: true,
@@ -34,4 +46,4 @@ gulp.task('minify-js', function (cb) {
     gulp.dest(dir)
   ], cb)
 })
-gulp.task('default', ['minify-css', 'minify-js', 'minify-html'])
+gulp.task('default', ['images', 'minify-css', 'minify-js', 'minify-html'])
