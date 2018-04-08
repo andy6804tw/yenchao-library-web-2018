@@ -3,7 +3,7 @@ var htmlmin = require("gulp-htmlmin")
 var cleancss = require('gulp-clean-css')
 var uglify = require('gulp-uglify')
 var pump = require('pump')
-var dir = './dist/public'
+var dir = './dist'
 gulp.task('minify-html', function (cb) {
   var opts = {
     collapseWhitespace: true,
