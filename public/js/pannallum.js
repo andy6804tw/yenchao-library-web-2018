@@ -12,7 +12,7 @@ pannellum.viewer('panorama', {
             "hfov": 180,
             "yaw": -70,
             "type": "equirectangular",
-            "panorama": "./../images/pannallum/1f_center.jpg",
+            "panorama": "/public/images/pannallum/1f_center.jpg",
             "autoLoad": true,
             "hotSpots": [
                 {
@@ -50,7 +50,7 @@ pannellum.viewer('panorama', {
             "hfov": 110,
             "yaw": 5,
             "type": "equirectangular",
-            "panorama": "./../images/pannallum/1f_Breastfeeding.jpg",
+            "panorama": "/public/images/pannallum/1f_Breastfeeding.jpg",
             "hotSpots": [
                 {
                     "pitch": 14.1,
@@ -74,7 +74,7 @@ pannellum.viewer('panorama', {
             "hfov": 180,
             "yaw": 35,
             "type": "equirectangular",
-            "panorama": "images/1f_child.jpg",
+            "panorama": "/public/images/pannallum/1f_child.jpg",
             "hotSpots": [
                 {
                     "pitch": 0,
@@ -98,7 +98,7 @@ pannellum.viewer('panorama', {
             "yaw": 35,
             "pitch": 12.1,
             "type": "equirectangular",
-            "panorama": "images/1f_dataRetrieval.jpg",
+            "panorama": "/public/images/pannallum/1f_dataRetrieval.jpg",
             "hotSpots": [
                 {
                     "pitch": 10,
@@ -122,7 +122,7 @@ pannellum.viewer('panorama', {
             "hfov": 310,
             "yaw": 0,
             "type": "equirectangular",
-            "panorama": "images/2f_center.jpg",
+            "panorama": "/public/images/pannallum/2f_center.jpg",
             "hotSpots": [
                 {
                     "pitch": 5,
@@ -168,7 +168,7 @@ pannellum.viewer('panorama', {
             "hfov": 310,
             "yaw": -120,
             "type": "equirectangular",
-            "panorama": "images/2f_read.jpg",
+            "panorama": "/public/images/pannallum/2f_read.jpg",
             "hotSpots": [
                 {
                     "pitch": 5,
@@ -193,7 +193,7 @@ pannellum.viewer('panorama', {
             "pitch": 10,
             "yaw": 5,
             "type": "equirectangular",
-            "panorama": "images/2f_left.jpg",
+            "panorama": "/public/images/pannallum/2f_left.jpg",
             "hotSpots": [
                 {
                     "pitch": 10,
@@ -218,7 +218,7 @@ pannellum.viewer('panorama', {
             "pitch": 10,
             "yaw": 5,
             "type": "equirectangular",
-            "panorama": "images/2f_right.jpg",
+            "panorama": "/public/images/pannallum/2f_right.jpg",
             "hotSpots": [
                 {
                     "pitch": 10,
@@ -242,7 +242,7 @@ pannellum.viewer('panorama', {
             "hfov": 110,
             "yaw": 210,
             "type": "equirectangular",
-            "panorama": "images/3f_left.jpg",
+            "panorama": "/public/images/pannallum/3f_left.jpg",
             "hotSpots": [
                 {
                     "pitch": 0,
@@ -276,7 +276,7 @@ pannellum.viewer('panorama', {
             "hfov": 180,
             "yaw": -35,
             "type": "equirectangular",
-            "panorama": "images/3f_room.jpg",
+            "panorama": "/public/images/pannallum/3f_room.jpg",
             "hotSpots": [
                 {
                     "pitch": 5,
@@ -297,7 +297,7 @@ pannellum.viewer('panorama', {
             "hfov": 180,
             "yaw": -35,
             "type": "equirectangular",
-            "panorama": "images/3f_right.jpg",
+            "panorama": "/public/images/pannallum/3f_right.jpg",
             "hotSpots": [
                 {
                     "pitch": 5,
@@ -333,7 +333,7 @@ pannellum.viewer('panorama', {
             "yaw": -55,
             "pitch": 5,
             "type": "equirectangular",
-            "panorama": "images/3f_computer.jpg",
+            "panorama": "/public/images/pannallum/3f_computer.jpg",
             "hotSpots": [
                 {
                     "pitch": -5,

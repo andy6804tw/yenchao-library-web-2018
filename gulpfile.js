@@ -8,7 +8,7 @@ var dir = './dist'
 
 gulp.task('images', function () {
   pump([
-    gulp.src('./web/images/**/*.*'),
+    gulp.src('./public/images/**/*.*'),
     imagemin({
       progressive: true
     }),
@@ -26,21 +26,21 @@ gulp.task('minify-html', function (cb) {
     minifyURLs: true,
   }
   pump([
-    gulp.src('./web/**/*.html'),
+    gulp.src('./public/**/*.html'),
     htmlmin(opts),
     gulp.dest(dir)
   ], cb)
 })
 gulp.task('minify-css', function (cb) {
   pump([
-    gulp.src('./web/**/*.css'),
+    gulp.src('./public/**/*.css'),
     cleancss({ compatibility: 'ie8' }),
     gulp.dest(dir)
   ])
 })
 gulp.task('minify-js', function (cb) {
   pump([
-    gulp.src('./web/**/*.js'),
+    gulp.src('./public/**/*.js'),
     uglify(),
     gulp.dest(dir)
   ], cb)
