@@ -1,10 +1,11 @@
-var gulp = require('gulp')
-var imagemin = require('gulp-imagemin')
-var htmlmin = require("gulp-htmlmin")
-var cleancss = require('gulp-clean-css')
-var uglify = require('gulp-uglify')
-var pump = require('pump')
-var dir = './dist'
+const gulp = require('gulp');
+const imagemin = require('gulp-imagemin');
+const htmlmin = require("gulp-htmlmin");
+const cleancss = require('gulp-clean-css');
+const uglify = require('gulp-uglify');
+const minify = require("gulp-babel-minify");
+const pump = require('pump');
+const dir = './dist';
 
 gulp.task('images', function () {
   pump([
@@ -16,7 +17,7 @@ gulp.task('images', function () {
   ])
 });
 gulp.task('minify-html', function (cb) {
-  var opts = {
+  const opts = {
     collapseWhitespace: true,
     preventLineBreaks: true,
     removeComments: true,
@@ -45,4 +46,15 @@ gulp.task('minify-js', function (cb) {
     gulp.dest(dir)
   ], cb)
 })
-gulp.task('default', ['minify-css', 'minify-js', 'minify-html', 'images'])
+gulp.task('minify-babel-js', function (cb) {
+  pump([
+    gulp.src('./public/**/*.js'),
+    minify({
+      mangle: {
+        keepClassName: true
+      }
+    }),
+    gulp.dest(dir)
+  ], cb)
+})
+gulp.task('default', ['minify-css', 'minify-babel-js', 'minify-html', 'images'])

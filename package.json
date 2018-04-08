@@ -19,6 +19,7 @@
   "homepage": "https://github.com/andy6804tw/yenchao-library-web-2018#readme",
   "dependencies": {
     "gulp": "^3.9.1",
+    "gulp-babel-minify": "^0.3.0",
     "gulp-clean-css": "^3.9.3",
     "gulp-htmlmin": "^4.0.0",
     "gulp-imagemin": "^4.1.0",
