@@ -26,8 +26,8 @@
 2. 吃掉蘋果會進入語音導覽
 3. 吃掉草莓進入Q&A問答
 
-<img src="/Screenshot/img01.png" width="650">
-<img src="/Screenshot/img02.png" width="650">
+<img src="./Screenshot/img01.png" width="650">
+<img src="./Screenshot/img02.png" width="650">
 
 
 ## 圖書館 360° 導覽
@@ -41,14 +41,14 @@
 
 燕巢圖書館360全景導覽，裡面有引導鈕可以切換館內各個場景並支援各種裝置，手機平板用戶建議橫放並開啟全螢幕模式。
 
-<img src="/Screenshot/img03.gif">
+<img src="./Screenshot/img03.gif">
 
 ## 圖書館導覽手冊
 我們製作了一本屬於燕巢圖書館的導覽手冊，裡面詳細地介紹館內所有設施與使用公約，為了能讓第一次使用的孩子與民眾能快速了解本館服務，此外手冊最後製作了摺紙與吉祥物(小芭)的著色頁。
 
 - [導覽手冊](https://drive.google.com/open?id=1_8Jb1jVDD6Mg1PnFl8pei_T7_POMZ6EZ)
 
-<img src="/Screenshot/img04.png" width="350">
+<img src="./Screenshot/img04.png" width="350">
 
 ## 圖書館簡介
 ### 高雄市立圖書館 燕巢分館
