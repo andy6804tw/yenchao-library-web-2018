@@ -138,13 +138,13 @@ h1 {
   transition: 500ms;
   opacity: 1;
 }
-.img:first-child {
+/* .img:first-child {
   height: 300px;
   min-height: inherit;
   background-attachment: inherit;
   background-position: center;
   background-size: cover;
-}
+} */
 .desc{
   display:flex;
   align-items:center;
